@@ -1,0 +1,67 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>UserLoginController</servlet-name>
+  	<display-name>UserLoginController</display-name>
+  	<description></description>
+  	<servlet-class>com.kushan.abclab.controller.UserLoginController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UserRegisterController</servlet-name>
+  	<display-name>UserRegisterController</display-name>
+  	<description></description>
+  	<servlet-class>com.kushan.abclab.controller.UserRegisterController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UserLogin</servlet-name>
+  	<display-name>UserLogin</display-name>
+  	<description></description>
+  	<servlet-class>com.kushan.abclab.controller.UserLoginController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DropDownController</servlet-name>
+  	<display-name>DropDownController</display-name>
+  	<description></description>
+  	<servlet-class>com.kushan.abclab.controller.DropDownController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DropDownControllerOne</servlet-name>
+  	<display-name>DropDownControllerOne</display-name>
+  	<description></description>
+  	<servlet-class>com.kushan.abclab.controller.DropDownController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RequestAppointment</servlet-name>
+  	<display-name>RequestAppointment</display-name>
+  	<description></description>
+  	<servlet-class>com.kushan.abclab.controller.RequestAppointment</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UserLoginController</servlet-name>
+  	<url-pattern>/UserLoginController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UserRegisterController</servlet-name>
+  	<url-pattern>/UserRegisterController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UserLogin</servlet-name>
+  	<url-pattern>/UserLogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DropDownController</servlet-name>
+  	<url-pattern>/DropDownController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DropDownControllerOne</servlet-name>
+  	<url-pattern>/DropDownControllerOne</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RequestAppointment</servlet-name>
+  	<url-pattern>/RequestAppointment</url-pattern>
+  </servlet-mapping>
+</web-app>
